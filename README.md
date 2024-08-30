@@ -9,5 +9,5 @@ The repository includes:
 - Initialization of Signals: Setting up the original signal, measurement matrix, and Hermite polynomial basis.
 - Matching Pursuit Algorithm: Iteratively selecting the best matching basis functions and updating the signal approximation.
 - Animation: Visualizing the iterative decomposition process to demonstrate how the algorithm approximates the signal.
-- 
+  
 Feel free to explore the scripts and animations to understand the application of the Matching Pursuit algorithm in signal processing.
