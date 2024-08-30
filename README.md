@@ -1,5 +1,5 @@
 # Matching Pursuit Algorithm for Sparse Signal Decomposition 
-This repository contains an implementation of the Matching Pursuit (MP) algorithm in MATLAB. The MP algorithm is a technique used for sparse signal decomposition, where a signal is iteratively decomposed into a sparse representation using a dictionary of basis functions.
+This repository(https://github.com/Hadian1989/matching_pursuit) contains an implementation of the Matching Pursuit (MP) algorithm in MATLAB. The MP algorithm is a technique used for sparse signal decomposition, where a signal is iteratively decomposed into a sparse representation using a dictionary of basis functions.
 
 ## Overview
 The provided MATLAB scripts replicate the animation of the Matching Pursuit algorithm, similar to the illustration found on the Wikipedia page: https://en.wikipedia.org/wiki/Matching_pursuit
