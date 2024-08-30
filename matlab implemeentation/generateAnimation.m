@@ -1,6 +1,4 @@
 %% Step 3: Generate the animation
-% % Define video dimensions
-
 % Initialize video writer
 videoFileName = 'matching_pursuit_animation.mp4';  % Video file name
 frameRate = 6;  % Frame rate
@@ -11,7 +9,7 @@ open(v);  % Open the video file for writing
 p0 = cell(1, numberOfMeasurmentOfOriginalSignal);
 
 for k = 1:numberOfMeasurmentOfOriginalSignal
-    fig = figure('Visible', 'off');
+    fig = figure('Visible', 'off', 'Color', 'w');
     set(fig, 'Position', [100, 100, 1200, 600]);  % Adjust figure size: [left, bottom, width, height]
     % Create the first subplot for the line plot
     subplot(1, 2, 1);  % 1 row, 2 columns, first subplot
@@ -44,7 +42,7 @@ tau_values = 0:0.1:1;  % Tau values for the second loop
 % Second Loop: Create the second set of figures and add them to the video
 for tau = tau_values
     % Create a new figure for each frame
-    fig = figure('Visible', 'off');
+    fig = figure('Visible', 'off', 'Color', 'w');
     set(fig, 'Position', [100, 100, 1200, 600]);  % Adjust figure size: [left, bottom, width, height]
     
     % First subplot (Left): Plot df and evolving signal
@@ -82,7 +80,7 @@ end
 for k = 2:length(support) - 1
     for tau = tau_values
         % Create a new figure for each frame
-        fig = figure('Visible', 'off');
+        fig = figure('Visible', 'off', 'Color', 'w');
         set(fig, 'Position', [100, 100, 1200, 600]);  % Adjust figure size: [left, bottom, width, height]
         % First subplot: Plot df and evolving signal
         subplot(1, 2, 1);  % Create the first subplot
